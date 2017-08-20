@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Robimy formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/politea@gmail.com" method="POST">
+
+        <label for="imie">Imię:</label><br />
+        <input type="text" name="imie" id="imie"><br />
+
+        <label for="nazwisko">Nazwisko:</label><br />
+        <input type="text" name="nazwisko" id="nazwisko"><br /><br />
+
+        <label for="email">E-mail:</label><br />
+        <input type="email" name="_replyto" id="email"><br />
+
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Zgoda 1</label>
+        </div><br />
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Zgoda 2</label>
+        </div><br />
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Zgoda 3</label>
+        </div><br />
+    </form>
+    <p>Wciśnij "Send" aby wysłać dane.</p>
+    <script src="js/znajdowanie-elementow.js"></script>
+</body>
+
+</html>
